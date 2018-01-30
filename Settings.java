@@ -1,4 +1,4 @@
-package sangu;
+
 
 public class Settings {
 	final static String schemata = "information_schema.schemata.tbl";

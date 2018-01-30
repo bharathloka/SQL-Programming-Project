@@ -1,11 +1,11 @@
-package sangu;
+
 
 import java.io.IOException;
 import java.text.ParseException;
 import java.util.Scanner;
 
-public class LaunchSanguSql {
-	static String prompt = "tadurisql>";
+public class LaunchLokaSql {
+	static String prompt = "Lokasql>";
 	public static void main(String... args) throws IOException, ParseException {
 		//Display the welcome screen and the actions that could be taken up.
 		welcomeScreen();
@@ -31,7 +31,7 @@ public class LaunchSanguSql {
 		schema.initializeSetUp();		
 	}
 	private static void welcomeScreen() {
-		String welcomeMessage="Welcome to sangu sql lite version 0.1!\n";
+		String welcomeMessage="Welcome to Loka sql lite version 0.1!\n";
 		welcomeMessage += "Your current login time is:";
 		welcomeMessage += new java.util.Date();
 		welcomeMessage += "\nThis lite sql version allows you to do the following operations:\n";

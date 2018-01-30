@@ -1,4 +1,4 @@
-package sangu;
+package Loka;
 
 public class ColumnDataTypeMapper {
 	private String dataType;
